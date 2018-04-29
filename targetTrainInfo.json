@@ -1,0 +1,12 @@
+[
+  {
+    "name": "豊肥本線",
+    "link": "http://unkou.keikyu.co.jp/",
+    "channelId": "CA64KEN3D"
+  },
+  {
+    "name": "山手線",
+    "link": "http://traininfo.jreast.co.jp/train_info/kanto.aspx",
+    "channelId": "ABCDEFGHI"
+  }
+]
