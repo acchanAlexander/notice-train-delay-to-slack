@@ -25,11 +25,11 @@ const web = new WebClient(token);
 function postToSlack(trainName, infoLink, channelId) {
   const message = trainName + 'に遅延が出てます。詳しくは詳細情報を確認してください。\n' + infoLink;
 
-	web.chat.postMessage({ channel: channelId, text: message })
-		.then((res) => {
-			console.log('Message sent: ', res.ts);
-		})
-		.catch((err) => {
+  web.chat.postMessage({ channel: channelId, text: message })
+    .then((res) => {
+      console.log('Message sent: ', res.ts);
+    })
+    .catch((err) => {
       console.log(err);
     });
 }
